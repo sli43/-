@@ -1,0 +1,13 @@
+mac 电脑安装 adb, 用下面两行命令
+brew install android-platform-tools
+adb devices
+
+设置电视
+1.	设置/设备偏好/关于/内部版本号，连续按，开启开发者模式
+2.	设置/设备偏好/开发者选项/usb调试  开启usb调试
+3.	网络/ip 地址， 查看ip 地址
+
+用mac 电脑， 打开terminal
+4.	adb connect IP地址
+5.	adb install ***.apk
+
