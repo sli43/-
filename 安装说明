@@ -1,5 +1,5 @@
 mac 电脑安装 adb, 用下面两行命令
-brew install android-platform-tools
+homebrew install android-platform-tools
 adb devices
 
 设置电视
